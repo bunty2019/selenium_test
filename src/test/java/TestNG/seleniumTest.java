@@ -28,7 +28,8 @@ public class seleniumTest {
 		  ChromeOptions Options= new ChromeOptions();
 		  Options.addArguments("--headless");
 		  WebDriver driver= new ChromeDriver(Options);
-		  driver.get("http://ec2-3-82-212-169.compute-1.amazonaws.com:3001");
+		  //driver.get("http://ec2-3-82-212-169.compute-1.amazonaws.com:3001");
+		  driver.get("localhost:3001");
 		   
 		  /*
 		
