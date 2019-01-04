@@ -35,7 +35,7 @@ public class seleniumTest {
 		  Options.addArguments("--headless");
 		  driver= new FirefoxDriver(Options);
 		  //driver.get("http://localhost:3001/");
-		  driver.get("ec2-18-205-243-71.compute-1.amazonaws.com:3001/");
+		  driver.get("http://ec2-18-205-243-71.compute-1.amazonaws.com:3001/");
 		
 		  //driver= new  FirefoxDriver();
 		  
