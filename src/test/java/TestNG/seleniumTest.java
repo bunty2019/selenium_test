@@ -24,7 +24,7 @@ public class seleniumTest {
 	@BeforeMethod
 	public void launch() throws MalformedURLException {
 		  //System.setProperty("webdriver.chrome.driver", "/Users/Singh/Selenium/chromedriver");
-		  System.setProperty("webdriver.gecko.driver","/Users/Singh/Selenium/geckodriver");
+		  System.setProperty("webdriver.gecko.driver","/User/Selenium/geckodriver");
 		  
 		  
 		  //ChromeOptions Options= new ChromeOptions();
